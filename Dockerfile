@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/JonnycatMeow/codingisfun.git
+RUN git clone https://github.com/Templates-dude/Shadowyman.git
 
-WORKDIR /codingisfun
+WORKDIR /Shadowyman
 
 RUN npm install
 
